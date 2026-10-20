@@ -1,28 +1,26 @@
 Nashville Housing Data Cleaning Project
 
-Overview
+Project Overview
+Performed a data quality assessment and cleaning of the Nashville Housing dataset using Microsoft Excel.
 
-This project demonstrates data cleaning and preparation techniques using the Nashville Housing dataset. The goal was to improve data quality, standardize values, remove duplicate records, and prepare the dataset for analysis.
+Cleaning Actions Performed
+- Populated 28 missing PropertyAddress values
+- Removed 103 duplicate records
+- Split PropertyAddress into PropertyStreetAddress and PropertyCity
 
-Objectives
+Data Quality Checks
+- SaleDate
+- SoldAsVacant
+- SalePrice
+- LegalReference
+- PropertyCity
 
-Standardize date formats
-Populate missing property address values
-Split address fields into separate columns
-Convert categorical values to a consistent format
-Identify and remove duplicate records
-Remove unused columns
-Improve overall data quality
+Remaining Missing Values
+Several columns contained missing values for which no reliable source data was available. These values were documented and left unchanged.
 
-Skills Demonstrated
-
-SQL
-Data Cleaning
-Data Validation
-Data Transformation
-Data Quality Assessment
-Documentation
-
-Status
-
-Completed
+Results
+Original Dataset: 56,477 records
+Final Dataset: 56,374 records
+Duplicates Removed: 103
+PropertyAddress Values Populated: 28 
+    
