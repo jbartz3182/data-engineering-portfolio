@@ -66,10 +66,10 @@ This project demonstrates data cleaning and preparation techniques using the Nas
 ## Results
 <br>
 
-- Original dataset contained 56,477 records.
-- Populated 28 missing PropertyAddress values using matching ParcelID records.
-- Removed 103 duplicate records.
-- Normalized PropertyAddress data into separate PropertyStreetAddress and PropertyCity columns.
-- Documented unresolved missing values where no reliable source data existed.
-- Improved dataset consistency and usability for analysis.
-- Final cleaned dataset contains 56,374 records.
+| Metric | Value |
+|----------|----------|
+| Original Records | 56,477 |
+| Final Records | 56,374 |
+| PropertyAddress Values Populated | 28 |
+| Duplicates Removed | 103 |
+
