@@ -1,23 +1,28 @@
 Nashville Housing Data Cleaning Project
 
-Overview:
-This project demonstrates data cleaning and quality validation techniques using a customer dataset.
+Overview
 
-Objectives:
-Identify duplicate customer records,
-Validate required fields,
-Standardize data formats,
-Investigate missing values,
-and Improve overall data quality
+This project demonstrates data cleaning and preparation techniques using the Nashville Housing dataset. The goal was to improve data quality, standardize values, remove duplicate records, and prepare the dataset for analysis.
 
+Objectives
 
-Skills Demonstrated:
-Data Cleaning,
-Data Validation,
-Data Quality Assessment,
-Excel,
-and Documentation.
+Standardize date formats
+Populate missing property address values
+Split address fields into separate columns
+Convert categorical values to a consistent format
+Identify and remove duplicate records
+Remove unused columns
+Improve overall data quality
 
+Skills Demonstrated
 
-Status:
+SQL
+Data Cleaning
+Data Validation
+Data Transformation
+Data Quality Assessment
+Documentation
+
+Status
+
 Completed
