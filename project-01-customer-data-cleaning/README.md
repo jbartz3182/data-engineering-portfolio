@@ -1,6 +1,7 @@
 Customer Data Cleaning Project
 
-Overview
+Overview:
+
 This project demonstrates data cleaning and quality validation techniques using a customer dataset.
 
 Objectives:
@@ -19,5 +20,5 @@ Excel,
 and Documentation.
 
 
-Status
+Status:
 Completed
