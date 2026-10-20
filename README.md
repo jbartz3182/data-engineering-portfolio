@@ -11,6 +11,7 @@ Excel
 Power Query
 Data Analysis
 Data Documentation
+
 Projects
 Project 1 - Customer Data Cleaning
 Data cleaning and validation of customer records.
