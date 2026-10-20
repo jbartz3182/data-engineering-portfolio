@@ -1,4 +1,4 @@
-Customer Data Cleaning Project
+Nashville Housing Data Cleaning Project
 
 Overview:
 This project demonstrates data cleaning and quality validation techniques using a customer dataset.
