@@ -53,11 +53,15 @@ The following columns were reviewed and found to contain no missing values after
 - TotalSale
 
 ## Results
+<br>
 
 | Metric | Value |
 |----------|----------|
 | Original Records | 10,125 |
 | Final Records | 9,777 |
-| Duplicates Removed | 125 |
-| Negative Quantity
-    
+| State Values Standardized | 6,715 |
+| Duplicate Records Removed | 125 |
+| Negative Quantity Records Removed | 75 |
+| Future-Dated Records Removed | 148 |
+| TotalSale Values Corrected | 198 |
+| Blank Email Values Documented | 306 |
