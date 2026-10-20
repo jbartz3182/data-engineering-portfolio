@@ -1,7 +1,5 @@
 Data Engineering Portfolio
-Welcome to my data engineering portfolio.
-
-I am currently pursuing an AAS in Computer Science & Information Systems - Cybersecurity while developing skills in data cleaning, data quality, SQL, ETL, and data engineering.
+Hello! My name is Joseph, and I am currently pursuing an AAS in Computer Science & Information Systems - Cybersecurity while developing skills in data engineering, data quality, SQL, and analytics.
 
 Skills
 SQL
@@ -11,20 +9,19 @@ Excel
 Power Query
 Data Analysis
 Data Documentation
-
 Projects
+
 Project 1 - Customer Data Cleaning
-Data cleaning and validation of customer records.
+Customer record validation and cleaning project.
 
 Project 2 - Retail Sales Data Cleaning
-Removal of duplicate records, invalid dates, incorrect calculations, and inconsistent values.
+Retail sales data cleanup including duplicate removal, invalid date correction, and data quality validation.
 
 Project 3 - SQL Data Validation
-SQL queries designed to identify data quality issues such as duplicates, missing values, and orphaned records.
+SQL queries used to identify duplicates, missing values, orphaned records, and other data quality issues.
 
-Project 4 - Power Query Data Cleaning
+Project 4 - Power Query Cleaning
 Data transformation and standardization using Power Query.
 
-
-Contact
-GitHub: https://github.com/jbartz3182
+Goals
+This portfolio documents my progress toward a career in data engineering and analytics through hands-on projects and practical data quality work.
