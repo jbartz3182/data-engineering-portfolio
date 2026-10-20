@@ -1,34 +1,63 @@
-Retail Sales Data Cleaning Project
+# Retail Sales Data Cleaning Project
 
-Overview:
-This project demonstrates a complete data cleaning workflow using a retail sales dataset.
+## Overview
 
-Objectives:
-Identify data quality issues,
-Remove duplicate records,
-Remove invalid records,
-Standardize inconsistent values,
-Validate calculations,
-Document unresolved issues,
-and Improve overall data quality.
+This project focused on identifying, documenting, and resolving data quality issues within a retail sales dataset using Microsoft Excel.
 
-Results:
-Duplicate records removed: 125,
-Negative quantity records removed: 75,
-Future-dated records removed: 148,
-TotalSale corrections made: 198,
-Missing Email values documented: 306,
-Missing State values documented: 203,
-and Final dataset size: 9,777 records.
+## Dataset Information
 
-Skills Demonstrated:
-Data Cleaning,
-Data Validation,
-Data Quality Assessment,
-Excel,
-CSV Processing,
-Root Cause Analysis,
-and Documentation.
+- Source: Synthetic retail sales dataset
+- Original Record Count: 10,125
+- Original Column Count: 10
 
-Status:
-Completed
+## Cleaning Actions Performed
+
+### 1. Duplicate Records
+- Removed 125 duplicate records based on OrderID.
+
+### 2. State Standardization
+- Standardized state values to USPS abbreviations:
+  - Missouri → MO
+  - Kansas → KS
+
+### 3. Invalid Quantity Values
+- Identified and removed 75 records containing negative quantities.
+
+### 4. Future-Dated Records
+- Identified and removed 148 records containing future order dates.
+
+### 5. TotalSale Validation
+- Validated TotalSale against Quantity × UnitPrice.
+- Corrected 198 records with invalid TotalSale values.
+
+## Missing Data Review
+
+### Email
+- 306 blank Email values identified.
+- No reliable method was available to determine correct values.
+- Values left unchanged.
+
+### State
+- 203 blank State values identified.
+- Values documented and left unchanged.
+
+## Data Quality Checks Performed
+
+The following columns were reviewed and found to contain no missing values after cleaning:
+
+- CustomerID
+- CustomerName
+- Product
+- Quantity
+- UnitPrice
+- TotalSale
+
+## Results
+
+| Metric | Value |
+|----------|----------|
+| Original Records | 10,125 |
+| Final Records | 9,777 |
+| Duplicates Removed | 125 |
+| Negative Quantity
+    
