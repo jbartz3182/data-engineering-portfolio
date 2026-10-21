@@ -63,11 +63,16 @@ This project demonstrates the use of SQL to identify, investigate, and document 
 ## Results
 <br>
 
-- Project currently in development.
-- Results and findings will be documented upon completion.
+| Validation Check | Records Found |
+|----------|----------|
+| Missing Email Addresses | 1 |
+| Duplicate Customer Names | 1 |
+| Negative Product Prices | 1 |
+| Negative Quantities | 1 |
+| Orphaned Orders | 1 |
 <br>
 
 ## Status
 <br>
 
-In Development
+Completed
